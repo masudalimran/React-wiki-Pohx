@@ -159,7 +159,7 @@ export default function TopBar() {
                   ...(open && { display: "none" }),
                 }}
               >
-                <MenuIcon />
+                <MenuIcon sx={{ color: "black" }} />
               </IconButton>
             </Grid>
             <Grid item lg={10}>
